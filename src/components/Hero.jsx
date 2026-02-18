@@ -7,9 +7,9 @@ function Hero() {
   // Custom branded bottles images
   const bottleImages = [
     'images/14.jpg',
-    'images/2.jpg',
-    'images/3.jpg',
-    'images/4.jpg'
+    'images/Hs Blue 1.png',
+    'images/new1.jpeg',
+    'images/N-Tok 2.png'
   ];
 
   // Bottle carousel navigation
@@ -94,20 +94,15 @@ function Hero() {
                 <p className="text-gray-600 text-xs">Your brand, your design</p>
               </div>
 
-              <div className="bg-gray-50 rounded-2xl p-4 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="bg-green-500 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <FaWater className="text-white text-xl" />
-                </div>
-                <h3 className="text-gray-800 text-lg font-bold mb-1">7-Stage Purified</h3>
-                <p className="text-gray-600 text-xs">Premium quality water</p>
+              <div className="bg-gray-50 rounded-2xl p-4 border border-gray-200  shadow-sm hover:shadow-md transition-shadow duration-300">
+                <img className='m-auto h-30' src="images/Eng.jpg" alt="" />
+                <p className='m-auto'>Eng. Subhan Khan</p>
+               
               </div>
 
-              <div className="bg-gray-50 rounded-2xl p-4 border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <FaAward className="text-white text-xl" />
-                </div>
-                <h3 className="text-gray-800 text-lg font-bold mb-1">Premium Quality</h3>
-                <p className="text-gray-600 text-xs">FSSAI & ISO certified</p>
+              <div className="bg-gray-50 m-auto rounded-2xl p-4 border  border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300">
+                <h1 className='font-bold'>Address</h1>
+                <p>Star Enterprises Roorkee, Haridwar, Uttarakhand, India</p>
               </div>
             </div>
           </div>
