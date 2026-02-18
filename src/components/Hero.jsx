@@ -95,14 +95,16 @@ function Hero() {
               </div>
 
               <div className="bg-gray-50 rounded-2xl p-4 border border-gray-200  shadow-sm hover:shadow-md transition-shadow duration-300">
-                <img className='m-auto h-30' src="images/Eng.jpg" alt="" />
-                <p className='m-auto'>Eng. Subhan Khan</p>
+               <img src="images/Hs Blue 1.png" alt="" />
                
               </div>
 
               <div className="bg-gray-50 m-auto rounded-2xl p-4 border  border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300">
-                <h1 className='font-bold'>Address</h1>
-                <p>Star Enterprises Roorkee, Haridwar, Uttarakhand, India</p>
+                <h1 className='font-bold'>Manufactured & Marketed By:</h1>
+                <p>
+Star Enterprises
+Roorkee – 247667, Haridwar, Uttarakhand
+</p>
               </div>
             </div>
           </div>
