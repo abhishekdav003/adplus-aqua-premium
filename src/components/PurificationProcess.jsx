@@ -175,46 +175,7 @@ function PurificationProcess() {
             ))}
           </div>
 
-          {/* Quality Assurance Points */}
-          <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200 shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-800 text-center mb-8">
-              Our Quality Commitment
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-cyan-400 to-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
-                  <FaCheckCircle className="text-white text-2xl" />
-                </div>
-                <h4 className="text-gray-800 font-semibold mb-2">Lab Tested</h4>
-                <p className="text-gray-600 text-sm">Every batch tested for purity</p>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-blue-400 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
-                  <FaShieldAlt className="text-white text-2xl" />
-                </div>
-                <h4 className="text-gray-800 font-semibold mb-2">Food Grade</h4>
-                <p className="text-gray-600 text-sm">BPA-free premium bottles</p>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-cyan-500 to-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
-                  <FaAward className="text-white text-2xl" />
-                </div>
-                <h4 className="text-gray-800 font-semibold mb-2">Certified</h4>
-                <p className="text-gray-600 text-sm">FSSAI & ISO standards</p>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-blue-500 to-cyan-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
-                  <FaFlask className="text-white text-2xl" />
-                </div>
-                <h4 className="text-gray-800 font-semibold mb-2">Fresh</h4>
-                <p className="text-gray-600 text-sm">Ozonation keeps it fresh</p>
-              </div>
-            </div>
-          </div>
+          
 
         </div>
       </div>

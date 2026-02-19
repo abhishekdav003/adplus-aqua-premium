@@ -11,6 +11,8 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import { useLenis } from "./hooks/useLenis";
 import "lenis/dist/lenis.css";
+import LitchiDrinkProduct from "./components/LitchiDrinkProduct";
+import ProductDetailsSection from "./components/Productdetailssection";
 
 function App() {
   useLenis();
@@ -24,7 +26,8 @@ function App() {
       <Portfolio />
       <NTokProducts />
       <FoundersMessage />
-      <PurificationProcess />
+      <LitchiDrinkProduct />
+      <ProductDetailsSection />
       <ContactUs />
       <Footer />
     </div>
